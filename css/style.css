@@ -44,6 +44,26 @@ body {
     width: 15%;
 }
 
+.one-half.column5-2{
+	margin-left: 65%;
+    margin-top: 10%;
+    background-color: aliceblue;
+    width: 25%;
+}
+
+.one-half.column5-1{
+	margin-top: 10%;
+    margin-left: 15%;
+    width: 25%;
+    background-color: aliceblue;
+}
+
+.one-half.column5-3{
+	margin-left: 65%;
+    margin-top: 20%;
+    background-color: aliceblue;
+    width: 25%;
+}
     
 
 
