@@ -1,0 +1,50 @@
+body {
+    background-image: url("../images/Map-Background-50%.png"); /*orignal measurments were 9600 by 5400*/
+    width: 100%;
+}
+
+.section1{
+	margin-left: 5%;
+    margin-top: 5%;
+    background-color: aliceblue;
+    width: 15%;
+}
+
+.one-half.column{
+	margin-top: 15%;
+    background-color: aliceblue;
+    width: 25%;
+}
+
+.four.columns{
+	margin-left: 20%;
+    margin-top: -10%;
+    background-color: aliceblue;
+    width: 25%;
+}
+
+.one-half.column4{
+	margin-top: 10%;
+    margin-left: 45%;
+    width: 25%;
+    background-color: aliceblue;
+}
+
+.one-half.column6{
+	margin-left: 75%;
+    margin-top: 20%;
+    background-color: aliceblue;
+    width: 25%;
+}
+
+.section7{
+	margin-left: 80%;
+    margin-top: -8%;
+    background-color: aliceblue;
+    width: 15%;
+}
+
+    
+
+
+    
