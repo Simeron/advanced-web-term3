@@ -6,20 +6,21 @@ body {
 .section1{
 	margin-left: 5%;
     margin-top: 5%;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
     width: 15%;
 }
 
 .one-half.column{
 	margin-top: 15%;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
     width: 25%;
+    margin-left: -8%;
 }
 
 .four.columns{
 	margin-left: 20%;
-    margin-top: -10%;
-    background-color: aliceblue;
+    margin-top: -18%;
+    /*background-color: aliceblue;*/
     width: 25%;
 }
 
@@ -27,27 +28,27 @@ body {
 	margin-top: 10%;
     margin-left: 45%;
     width: 25%;
-    background-color: aliceblue;
+   /* background-color: aliceblue;*/
 }
 
 .one-half.column6{
 	margin-left: 75%;
     margin-top: 20%;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
     width: 25%;
 }
 
 .section7{
 	margin-left: 80%;
-    margin-top: -8%;
-    background-color: aliceblue;
+    margin-top: -18%;
+   /* background-color: aliceblue;*/
     width: 15%;
 }
 
 .one-half.column5-2{
 	margin-left: 65%;
     margin-top: 10%;
-    background-color: aliceblue;
+   /* background-color: aliceblue;*/
     width: 25%;
 }
 
@@ -55,13 +56,13 @@ body {
 	margin-top: 10%;
     margin-left: 15%;
     width: 25%;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
 }
 
 .one-half.column5-3{
 	margin-left: 65%;
     margin-top: 20%;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
     width: 25%;
 }
 
@@ -69,7 +70,7 @@ body {
 	margin-top: -3%;
     margin-left: 42%;
     width: 20%;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
 }
    
 .lightbox {
