@@ -39,7 +39,9 @@
   divs one and seven are outside of the container as they need to be on the outter sections of the container. As for the rest of the rest of the order, it is in line with where is sits best on the page, so they aren't in order either. ALWAYS remember to check which section you are editing before editing it please!! -->
 
 <div class="section1" "smallbox box">
-   <p>If you click on the "Hide" button, I will disappear. Hello</p>
+   <!-- <p>If you click on the "Hide" button, I will disappear. Hello</p> -->
+   <img id="test"src="http://www.clker.com/cliparts/e/c/d/6/13510212541341751310Line%20of%20Dots.svg.hi.png" style="
+    display: none;">
 
     <div id="hide">Hide</div>
     <div id="show">Show</div>
@@ -142,11 +144,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    $("#hide").click(function(){
-        $("p").hide();
-    });
     $("#show").click(function(){
-        $("p").show();
+        $("#test").show();
+    });
+    $("#hide").click(function(){
+        $("#test").hide();
     });
 });
 </script>
