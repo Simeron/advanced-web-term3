@@ -1,48 +1,50 @@
 body {
-    background-image: url("../images/Map-Background-50%.png"); /*orignal measurments were 9600 by 5400*/
+    background-image: url("../images/main-map-1920x1080.png"); /*orignal measurments were 9600 by 5400*/
     width: 100%;
 }
 
 .section1{
-	margin-left: 5%;
-    margin-top: 5%;
+	margin-left: 4.5%;
+    margin-top: 4.7%;
     /*background-color: aliceblue;*/
-    width: 15%;
+    width: 14%;
+    z-index: 1;
+
 }
 
 .one-half.column{
 	margin-top: 15%;
     /*background-color: aliceblue;*/
-    width: 25%;
-    margin-left: -8%;
+    width: 19%;
+    margin-left: -6%;
 }
 
 .four.columns{
-	margin-left: 20%;
-    margin-top: -18%;
+	margin-left: 27%;
+    margin-top: -6.5%;
     /*background-color: aliceblue;*/
-    width: 25%;
+    width: 18%;
 }
 
 .one-half.column4{
 	margin-top: 10%;
-    margin-left: 45%;
-    width: 25%;
+    margin-left: 41%;
+    width: 18%;
    /* background-color: aliceblue;*/
 }
 
 .one-half.column6{
-	margin-left: 75%;
+	margin-left: 82.5%;
     margin-top: 20%;
     /*background-color: aliceblue;*/
-    width: 25%;
+    width: 19%;
 }
 
 .section7{
-	margin-left: 80%;
-    margin-top: -18%;
+	margin-left: 81%;
+    margin-top: -12.5%;
    /* background-color: aliceblue;*/
-    width: 15%;
+    width: 13%;
 }
 
 .one-half.column5-2{
@@ -106,6 +108,19 @@ body {
 
 img {
     width: 100%;
+    z-index: 2;
+    transition:all.2s ease-in-out;
 }
 
+img:hover{
+  transform: scale(1.05);
+}
+
+#test{
+  transform: none;
+  position: absolute;
+  z-index: -100;
+  margin-left: 0px;
+  margin-top: -69px;
+}
     
