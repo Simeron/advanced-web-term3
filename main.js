@@ -1,14 +1,24 @@
-//   $(".one-half.column6").click(function(){
-//    $(".one-half.column6").hide();
-//    $("#test2").show();
+console.log("main running")
 
-// });
+function showMe() {
+    document.getElementById("viewone").style.display = "block";
+    document.getElementById("lightboxone").style.display = "block";
+    document.getElementById("dots1").style.display = "block";
+};
 
-$(document).ready(function(){
-    $("#test").click(function(){
-        $("p").hide();
-    });
-    $("#test2").click(function(){
-        $("p").show();
-    });
-});
+function hideMe() {
+    console.log("Hiding all that shizz");
+    document.getElementById("viewone").style.display = "none";
+    document.getElementById("lightboxone").style.display = "none";
+};
+
+function showMeTwo() {
+    document.getElementById("viewtwo").style.display = "block";
+    document.getElementById("lightboxone").style.display = "block";
+    document.getElementById("dots2").style.display = "block";
+};
+
+function hideMeTwo() {
+    document.getElementById("viewtwo").style.display = "none";
+    document.getElementById("lightboxone").style.display = "none";
+};

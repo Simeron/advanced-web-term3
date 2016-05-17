@@ -37,25 +37,27 @@
 <body background="main-map-1920x1080.png">
 <!-- 
   divs one and seven are outside of the container as they need to be on the outter sections of the container. As for the rest of the rest of the order, it is in line with where is sits best on the page, so they aren't in order either. ALWAYS remember to check which section you are editing before editing it please!! -->
-   <img id="test"src="images/Path-1.png" style="
-    display: none;">
-<div class="section1" "smallbox box">
+   <img id="dots1"src="images/Path-1.png" style="display: none;">
+   <img id="dots2" src="images/Path-2.png" style="display: none;">
+
    <!-- <p>If you click on the "Hide" button, I will disappear. Hello</p> -->
 
 
     <!-- <div id="hide">Hide</div> -->
     <!-- <div id="show">Show</div> -->
-
-  <a href="#img1"><img src="images/HG-house.png"><!-- <h4>Section 1</h4> --></a>
-  <a href="#_" class="lightbox" id="img1">
-  <br>
-  <br>
-  <br>
-  <br>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/QtXby3twMmI" frameborder="0" allowfullscreen></iframe>
-  <!-- <h4>Section1</h4> -->
-  <p>Once upon a time - Hansels and Gretel's house</p>
-  <p>close</p>
+<div class="section1" "smallbox box">
+  <a href="javascript:void(0)" onclick="showMe()">
+    <img src="images/HG-house.png">
+  </a>
+  <div id="lightboxone" class="lightbox">
+  </div>
+  <div id="viewone" class="view">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QtXby3twMmI" frameborder="0" allowfullscreen></iframe>
+    <p>Once upon a time - Hansels and Gretel's house</p>
+    <a href="javascript:void(0)" onclick="hideMe()">
+      <p>Close</p>
+    </a>
+  </div>
 </div>
 <!-- <img src="http://www.bridgesforgardens.com/wp-content/uploads/2012/05/21-foot-stained-country-style-garden-bridge-two3.jpg"></div> -->
 
@@ -71,6 +73,9 @@
   <p>Grandma’s house</p>
   <p>close</p>
 </div>
+
+   <img id="test"src="images/Path-4.png" style="
+    display: none;">
 
   <div class="container">
 
@@ -91,27 +96,21 @@
 
   </div>  
 
-  <div class="container">
 
-<img id="dots"src="images/Path-2.png" style="
-    display: none;">
+<div id="section2" class="section1" "smallbox box">
+  <a href="javascript:void(0)" onclick="showMeTwo()">
+    <img src="images/bridge-badge.png">
+  </a>
+  <div id="viewtwo" class="view">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QtXby3twMmI" frameborder="0" allowfullscreen></iframe>
+    <h4>Section2</h4>
+    <p>3 Billy goats gruff</p>
+    <a href="javascript:void(0)" onclick="hideMeTwo()">
+    <p>Close</p>
+    </a>
+  </div>
+</div>
 
-    <div class="row">
-      <div class="one-half column" "smallbox box" style="margin-top: -13%">
-        <a href="#img1"><img src="images/bridge-badge.png"><!-- <h4>Section 2</h4> --></a>
-        <a href="#_" class="lightbox" id="img1">
-        <br>
-        <br>
-        <br>
-        <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QtXby3twMmI" frameborder="0" allowfullscreen></iframe>
-        <h4>Section2</h4>
-        <p>3 Billy goats gruff</p>
-        <p>Close</p>
-      </div>
-    </div>
-
-  </div>  
 
   <img id="dots"src="images/Path-2.png" style="
     display: none;">
@@ -135,7 +134,7 @@
 
   </div>
 
-  <img id="dots"src="images/Path-2.png" style="
+  <img id="dots"src="images/Path-3.png" style="
     display: none;">
 
 <div class="container">
@@ -168,24 +167,13 @@
   </div> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("p").click(function(){
-        $("#test").show();
-    });
-    $("#hide").click(function(){
-        $("#test").hide();
-    });
-});
-</script>
+
 
 <!-- where is code has come from http://www.w3schools.com/jquery/jquery_hide_show.asp -->
 
 
-
-
-<script type="text/javascript" src="main.js"></script>
  <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+ <script type="text/javascript" src="main.js"></script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

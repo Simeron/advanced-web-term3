@@ -1,6 +1,9 @@
 body {
     background-image: url("../images/main-map-1920x1080.png"); /*orignal measurments were 9600 by 5400*/
     width: 100%;
+    padding: 0px;
+    spacing: 0px;
+    margin: 0px;
 }
 
 .section1{
@@ -107,6 +110,41 @@ body {
   outline: none;
 }
 
+.closebutton {
+  position: absolute;
+}
+
+#section2 {
+  width: 13%;
+  margin-top: -9%;
+  margin-left: 12.5%;
+}
+
+.view {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  text-align: center;
+  width: 90%;
+  color: #FFFFFF;
+}
+
+#viewtwo{
+  top: 15%;
+  left: 5%;
+
+}
+
+.lightbox {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.7;
+}
+
 img {
     width: 100%;
     z-index: 2;
@@ -117,7 +155,14 @@ img:hover{
   transform: scale(1.05);
 }
 
-#test{
+#dots2 {
+  z-index: -99;
+  margin-top: -4.5%;
+  transform: none;
+  position: absolute;
+}
+
+#dots1{
   transform: none;
   position: absolute;
   z-index: -100;
