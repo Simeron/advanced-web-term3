@@ -41,10 +41,21 @@ function showMeFour() {
 };
 
 function hideMeFour() {
+	document.getElementById("upbeanstalk").style.display = "block"; //chnage to none on 5-3
     document.getElementById("viewfour").style.display = "none";
     document.getElementById("lightboxone").style.display = "none";
 };
 
+function showMeFive() {
+    document.getElementById("viewfive").style.display = "block";
+    document.getElementById("lightboxone").style.display = "block";
+    document.getElementById("dots4").style.display = "block";
+};
+
+function hideMeFive() {
+    document.getElementById("viewfive").style.display = "none";
+    document.getElementById("lightboxone").style.display = "none";
+};
 
 function showMeSix() {
     document.getElementById("viewsix").style.display = "block";
