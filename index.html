@@ -59,7 +59,7 @@
 </div>
 <!-- <img src="http://www.bridgesforgardens.com/wp-content/uploads/2012/05/21-foot-stained-country-style-garden-bridge-two3.jpg"></div> -->
 
-  <img id="line2"src="images/Path-2.png" style="
+  <img id="dots"src="images/Path-2.png" style="
     display: none;">
 <div class="section7" "smallbox box">
   <a href="#img1"><img src="images/grandmas-house.png"><!-- <h4>Section 7</h4> --></a>
@@ -104,7 +104,7 @@
     </div>
 
     <div class="row">
-      <div class="one-half column6" "smallbox box" style="margin-top: -9%">
+      <div class="one-half column6" "smallbox box" style="margin-top: -1.5%">
       <a href="#img1" id="test"><img src="images/HG-house.png"><!-- <h4>Section 6</h4> --></a>
       <a href="#_" class="lightbox" id="img1">
       <br>
@@ -157,17 +157,22 @@ $(document).ready(function(){
 </script>
 
 <!-- where is code has come from http://www.w3schools.com/jquery/jquery_hide_show.asp -->
-
 <script>
 $(document).ready(function(){
-    $("p").click(function(){
-        $("#line2").show();
-    });
-    $("#hide").click(function(){
-        $("#line2").hide();
+    $('#dots').click(function () {
+            var dots = $(this).attr("dots");
+            var getName = $(this).attr("name");
+            //console.log(getPage);
+            //console.log(getName);
+
+            $("#" + getName ).show();
+
+
+
     });
 });
 </script>
+
 
 <script type="text/javascript" src="main.js"></script>
  <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>

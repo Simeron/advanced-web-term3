@@ -21,7 +21,7 @@ body {
 
 .four.columns{
 	margin-left: 27%;
-    margin-top: -6.5%;
+    margin-top: 1.5%;
     /*background-color: aliceblue;*/
     width: 18%;
 }
@@ -34,10 +34,11 @@ body {
 }
 
 .one-half.column6{
-	margin-left: 82.5%;
-    margin-top: 20%;
+	margin-left: 55%;
+    margin-top: 24%;
     /*background-color: aliceblue;*/
-    width: 19%;
+    width: 13%;
+    position: fixed;
 }
 
 .section7{
@@ -122,5 +123,6 @@ img:hover{
   z-index: -100;
   margin-left: 0px;
   margin-top: -69px;
+  /*float: left;*/
 }
     
