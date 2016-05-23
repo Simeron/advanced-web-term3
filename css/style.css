@@ -1,9 +1,15 @@
 body {
     background-image: url("../images/main-map-1920x1080.png"); /*orignal measurments were 9600 by 5400*/
-    width: 100%;
+/*    width: 100%;
     padding: 0px;
     spacing: 0px;
-    margin: 0px;
+    margin: 0px;*/
+
+  background: url(../images/main-map-1920x1080.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .section1{
